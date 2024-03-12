@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { fileURLToPath } from 'node:url';
 
 export default defineConfig({
-  // base: './', // when using github pages to deploy, so that detects root url
+  base: './', // when using github pages to deploy, so that detects root url
   envPrefix: 'PUBLIC_',
   plugins: [
     react({
